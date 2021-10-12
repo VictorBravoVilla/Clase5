@@ -1,0 +1,29 @@
+ul li:first-child {
+  background: red;
+}
+
+ul li:last-child{
+  background: yellow;
+}
+
+ul li:nth-child(even){
+  background: green
+}
+
+ul li:nth-child(odd)
+{
+  background: blue
+}
+
+
+table{
+  width:100%
+}
+
+table td{
+  border: 1px solid black;
+}
+
+div:nth-child(2n+2){
+  background: pink;
+}
